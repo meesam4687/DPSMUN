@@ -99,7 +99,7 @@ body {
 .p2 {
     margin-top: 5rem;
     width: 100%;
-    height: 110vh;
+    height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -140,11 +140,13 @@ body {
     color: white;
     display: flex;
     margin: 5rem;
-    width: 55rem;
-    height: 50rem;
+    width: 80vw;
+    height: 70vh;
     display: flex;
     justify-content: center;
     align-items: center;
+    max-height: 45rem;
+    max-width: 75rem;
 }
 
 .item {
