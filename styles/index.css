@@ -141,7 +141,7 @@ body {
     display: flex;
     margin: 5rem;
     width: 80vw;
-    height: 70vh;
+    height: 55vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -156,9 +156,11 @@ body {
 .time {
     font-size: 4rem;
     margin: 0;
+    font-weight: 900;
 }
 
 .timeText {
     margin-top: 20px;
-    font-size: 2rem;
+    font-size: 1.4rem;
+    font-weight: 100;
 }
