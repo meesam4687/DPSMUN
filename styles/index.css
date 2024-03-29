@@ -9,6 +9,11 @@
 }
 
 @font-face {
+    font-family: 'Open Sauce Sans-Medium';
+    src: url('../assets/fonts/Open-Sauce-Sans/TTF/OpenSauceSans-Medium.ttf');
+}
+
+@font-face {
     font-family: "AlbraRegular-Italic";
     src: url('../assets/fonts/AlbraRegular-Italic.ttf');
 }
@@ -163,4 +168,49 @@ body {
     margin-top: 20px;
     font-size: 1.4rem;
     font-weight: 100;
+}
+
+.p3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    flex-direction: column;
+}
+
+.p3-headingText {
+    font-size: 4rem;
+    text-align: center;
+}
+
+.p3-headingText span {
+    font-family: 'AlbraRegular-Italic';
+}
+
+.cards {
+    width: 90vw;
+    max-width: 100rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 5rem;
+    margin-bottom: 10rem;
+}
+
+.card {
+    background-color: #eaeaea;
+    margin: 2rem 4em 2rem 4rem;
+}
+
+.card-image {
+    height: 16rem;
+    width: 15rem;
+    margin: 1.3rem;
+}
+
+.card-name {
+    text-align: center;
+    margin-top: 0;
+    font-size: 1.5rem;
+    font-family: 'Open Sauce Sans-Medium';
 }
