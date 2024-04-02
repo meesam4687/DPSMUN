@@ -1,2 +1,2 @@
 # Website for DPSMUN
-# CANCELLED
+## CANCELLED
